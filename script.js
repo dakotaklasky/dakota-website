@@ -1,4 +1,6 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+document.getElementById('linkedin').onclick = changeColor;   
 
-document.querySelector("body").appendChild(h2);
+    function changeColor() {
+        document.body.style.color = "purple";
+        return false;
+    }   

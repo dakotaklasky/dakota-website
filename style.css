@@ -2,3 +2,7 @@ body {
     background: pink;
     text-align: center;
   }
+
+#checkout{
+    text-align: left;
+}
